@@ -1,0 +1,21 @@
+﻿Build started 1/22/2016 10:15:29 PM.
+     1>Project "C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\SnakeGame\SnakeGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\shr\documents\visual studio 2015\projects\workingforproject\workingforproject\home\games\snakegame\snakegame\source.cpp(705): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\shr\documents\visual studio 2015\projects\workingforproject\workingforproject\home\games\snakegame\snakegame\source.cpp(716): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>c:\users\shr\documents\visual studio 2015\projects\workingforproject\workingforproject\home\games\snakegame\snakegame\source.cpp(741): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: see declaration of 'kbhit'
+     1>c:\users\shr\documents\visual studio 2015\projects\workingforproject\workingforproject\home\games\snakegame\snakegame\source.cpp(743): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+     1>c:\users\shr\documents\visual studio 2015\projects\workingforproject\workingforproject\home\games\snakegame\snakegame\source.cpp(701): warning C4715: 'moveSnake': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\x64\Debug\SnakeGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\x64\Debug\SnakeGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\x64\Debug\SnakeGame.lib" /MACHINE:X64 x64\Debug\Source.obj
+         SnakeGame.vcxproj -> C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\x64\Debug\SnakeGame.exe
+     1>Done Building Project "C:\Users\shr\Documents\Visual Studio 2015\Projects\workingForProject\workingForProject\Home\Games\SnakeGame\SnakeGame\SnakeGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80

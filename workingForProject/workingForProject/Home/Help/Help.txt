@@ -1,0 +1,97 @@
+|>
+usage : file1 > file2
+
+this command copies txt or file1 to file2$
+|>>
+usage : file1 >> file2
+
+this command copies txt or file1 to end of file2$
+|adduser
+usage : adduser
+
+this command will add a new user by admin$
+|cal
+usage : cal
+
+his command shows the callander with today's date$
+|cat
+usage : cat fileName
+
+this command will show the content of a file$
+|cd
+usage : cd Directory
+
+this command changes the directory to DirName$
+|clear
+usage : clear or clear history
+
+this command will clear the screen
+if used with history as parameter the history of curr user will be cleared$
+|exit
+usage : exit
+
+this command will close the operating system$
+|history
+history
+
+this command will show the entered commands by current user$
+|ls
+usage : ls
+
+this command shows every file and directory of current dir$
+|mkdir
+usage : mkdir dirName
+
+this command make a directory$
+|mv
+usage : mv file1 file2:home\path
+	
+this command will move file1 as file2 to path$
+|mvdir
+usage : mvdir dir1 dir2:home\path
+
+this command will move dir1 as dir2 to path with it's content$
+|myeditor
+usage : myeditor or myeditor fileName
+
+this command will open the editor$
+|passwd
+usage : passwd or passwd username or passwd -l time username
+
+this command will change user's own passworf .
+any user's password by admin .
+any user's access time by admin.$
+|rm
+usage : rm fileName
+
+this command will remove filename$
+|rmdir
+usage : rmdir dirName
+
+this command will remove dirName even non-empty dir$
+|runsnake
+usage : runSnake
+
+this command will run the snake game$
+|su
+usage : su username
+
+this command will change current user$
+|time
+usage : time
+
+this command will show current time$
+|wc
+usage : wc fileName
+
+this command will show the count of words and letters of fileName$
+|search
+usage : search fileName or search DirName
+
+this command will search through the whole OS
+shows the path of found file or dir$
+|timer
+usage : timer
+
+this command will show a timer$
+

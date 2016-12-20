@@ -1,0 +1,26 @@
+clear
+ls
+help
+myeditor mehran
+ls
+wc mehran
+help
+su mehran
+ls
+rm mehran
+ls
+cd editor
+ls
+cd ..
+ls
+cd games
+ls
+su admin
+cd games
+ls
+cp lvlofaccess lvlofaccess:home\editor
+cd ..
+su mehran
+cd editor
+ls
+exit
